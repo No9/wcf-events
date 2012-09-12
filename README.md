@@ -1,6 +1,8 @@
 # wcf-events
 
-An implementation of Harmon that proxies web service requests and raises events for defined elements that are contained in a message.
+An implementation of Harmon that proxies web service requests and raises events for defined elements that are contained in a response message.
+
+![Install the redis for windows](https://github.com/MSOpenTech/Redis "Redis Windows")
 
 ## Install
 ```
