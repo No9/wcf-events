@@ -2,7 +2,7 @@
 
 An implementation of Harmon that proxies web service requests and raises events for defined elements that are contained in a response message.
 
-!(https://raw.github.com/No9/wcf-events/master/docs/images/smallbrownturtles.png "Redis Windows")
+!["Turtles Growing In A Field"](https://raw.github.com/No9/wcf-events/master/docs/images/smallbrownturtles.png)
 
 ## Install
 ```
@@ -14,12 +14,15 @@ git clone git@github.com:No9/wcf-events.git
 
 Start the Redis Server
 
-Open the .sln in the ```wcf-events\TestProject``` folder
+Open a command prompt and cd into the root of the ```wcf-events``` folder 
+Run ```node index.js``` 
+
+Open a command prompt and cd into the root of the ```wcf-events\lib``` folder 
+Run ```node socketservercluster.js```
+
+Open the TestService.sln in the ```wcf-events\TestProject``` folder 
 
 Run the solution and a Windows UI should appear.
-
-Open a command prompt and cd into the root of the ```wcf-events``` folder
-Run ```node ./index.js``` 
 
 Open a web browser and navigate to [The test web page](http://localhost:10001/WebPage1.aspx)
 
