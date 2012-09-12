@@ -1,6 +1,6 @@
 # wcf-events
 
-An implementation of Harmon that proxies web service requests and raises events for defined elements that are contained in a response message.
+An implementation of [Harmon](https://github.com/No9/harmon) to demonstrate a proxied WCF service requests with custom events for defined elements that are contained in the XML response message.
 
 !["Turtles Growing In A Field"](https://raw.github.com/No9/wcf-events/master/docs/images/smallbrownturtles.png)
 
@@ -28,7 +28,7 @@ Open a web browser and navigate to [The test web page](http://localhost:10001/We
 
 On the windows form click on the button
 
-The web page should display the events being routed
+The web page should display the events being routed through redis and onto socket.io and finally being displayed in a web page.
 
 
 ![Screen Output](https://raw.github.com/No9/wcf-events/master/docs/images/output.png)
