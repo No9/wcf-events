@@ -1,0 +1,5 @@
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\bin\TestService.dll
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\bin\TestService.pdb
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\obj\Debug\TestService.csprojResolveAssemblyReference.cache
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\obj\Debug\TestService.dll
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\obj\Debug\TestService.pdb
