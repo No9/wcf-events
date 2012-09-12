@@ -1,6 +1,6 @@
 # wcf-events
 
-An implementation of [Harmon](https://github.com/No9/harmon) to demonstrate a proxied WCF service requests with custom events for defined elements that are contained in the XML response message.
+An implementation of [Harmon](https://github.com/No9/harmon) that demonstrates a proxied WCF service request with custom events attached to elements that are contained in the XML response message.
 
 !["Turtles Growing In A Field"](https://raw.github.com/No9/wcf-events/master/docs/images/smallbrownturtles.png)
 
