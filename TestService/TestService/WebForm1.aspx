@@ -20,6 +20,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+     <b>Click the button on the Windows Form App and the events should be raised here.</b>
     <div id="eventdata">
         
     </div>
