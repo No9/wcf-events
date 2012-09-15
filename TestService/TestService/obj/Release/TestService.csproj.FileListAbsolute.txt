@@ -1,0 +1,4 @@
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\bin\TestService.dll
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\bin\TestService.pdb
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\obj\Release\TestService.dll
+C:\Users\ANTON\Documents\GitHub\wcf-events\TestService\TestService\obj\Release\TestService.pdb

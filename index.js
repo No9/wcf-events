@@ -1,7 +1,7 @@
 var announce = require('socket.io-announce').createClient();
 var actions = [];
 var simpleaction = {};
-process.setMaxListeners(0);
+process.setMaxListeners(5000);
 // Select a node by its class name. You can also select by tag e.g. 'div'
 simpleaction.query = 'GetDataResult';
 
@@ -9,7 +9,6 @@ simpleaction.query = 'GetDataResult';
 simpleaction.func = function (node) {
                             node.html(function (html) {
 								console.log(node.name + ' = ' + html);
-								
 								announce.emit( 'cdcevent', { "item" : html } );
 								return;
 							});
