@@ -13,7 +13,7 @@ if (cluster.isMaster) {
     console.log('worker ' + worker.process.pid + ' died');
   });
 } else {// Select a node by its class name. You can also select by tag e.g. 'div'
-	
+	console.log("starting an http router");
 	var actions = [];
 	var simpleaction = {};
 	simpleaction.query = 'GetDataResult';
